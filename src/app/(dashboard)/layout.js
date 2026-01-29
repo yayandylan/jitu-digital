@@ -45,7 +45,7 @@ export default function DashboardLayout({ children }) {
   };
 
   const menuItems = [
-    { name: 'Dashboard', href: '/dashboard', icon: <LayoutDashboard size={20} />, isFree: true },
+    { name: 'Dashboard', href: '/home', icon: <LayoutDashboard size={20} />, isFree: true },
     { section: 'TOOLS UTAMA' },
     { name: 'Riset Produk', href: '/tools/riset-produk', icon: <Search size={20} />, badge: 'HOT', isFree: true },
     { name: 'Validasi Market', href: '/tools/validasi-market', icon: <Target size={20} />, isFree: false },
